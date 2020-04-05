@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Configure AWS Amplify
+Add config.js to the `src/` dir. The shape of your object should be as follows:
+```javascript
+export default {
+  cognito: {
+    REGION: "",
+    USER_POOL_ID: "",
+    APP_CLIENT_ID: "",
+    IDENTITY_POOL_ID: ""
+  }
+};
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
